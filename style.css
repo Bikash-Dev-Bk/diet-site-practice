@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 /*Banner Section*/
 
 .banner{
@@ -43,6 +44,7 @@ span{
     background-image: linear-gradient(to right,rgb(247, 31, 179) ,rgb(255, 0, 0));
 }
 
+
 /*About Section*/
 
 .about{
@@ -80,4 +82,57 @@ span{
     background-image: linear-gradient(to right,rgb(251, 143, 65), rgb(247, 63, 31));
     border-radius: 40px;
     border: none;
+}
+.about-btn:hover{
+    background-image: linear-gradient(to right,rgb(247, 31, 179) ,rgb(255, 0, 0));
+}
+
+
+
+/*Recipies Section*/
+
+
+
+
+
+/*Social Media Section*/
+
+.social-media{
+    height: 330px;
+    
+}
+
+.social-media-divider{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin:110px 110px ;
+    box-shadow: 0px 0px 20px rgb(169, 169, 169);
+    padding: 80px;
+    border-radius: 20px;
+}
+.social-media-fan{
+    font-size: 30px;  
+}
+.social-media-description{
+    font-size: 18px; 
+}
+
+
+
+/*Footer Section*/
+
+
+.footer-container{
+    height: 280px;
+    background-color: #0a101a;
+    text-align: center;
+}
+.footer-title{
+    color: gray;
+    padding-top: 40px;
+}
+.footer-description{
+    padding-top: 40px;
+    color: white;
 }
